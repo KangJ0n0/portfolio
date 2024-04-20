@@ -7,10 +7,10 @@ const Navbar = () => {
         <span>Afif Ravi</span>
         <div className="social">
           <a href="#">
-            <img src="/facebook.png" />
+            <img src="/linkedn.png" />
           </a>
           <a href="#">
-            <img src="/dribbble.png" />
+            <img src="/github.png" />
           </a>
           <a href="#">
             <img src="/instagram.png" />
