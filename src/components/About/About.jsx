@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./services.scss";
+import "./about.scss";
 import { motion, useInView } from "framer-motion";
 
 const variants = {
@@ -19,7 +19,7 @@ const variants = {
   },
 };
 
-const Services = () => {
+const About = () => {
   const ref = useRef();
 
   const isInView = useInView(ref, { margin: "-100px" });
@@ -73,4 +73,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default About;

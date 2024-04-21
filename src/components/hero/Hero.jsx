@@ -56,7 +56,7 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-        Writer Content Creator Influencer
+        Code Interface Firmware Integration
       </motion.div>
       <div className="imageContainer">
         <img src="/afif.png" alt="" />
