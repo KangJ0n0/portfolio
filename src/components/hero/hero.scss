@@ -78,8 +78,9 @@
     margin-right: 170px;
 
     @include mobile {
-      height: 38%;
-      margin-right: 80px;
+      height: 35%;
+      margin-left: 100px;
+      margin-right: 110px;
       margin-bottom: 10px;
       top: unset;
       bottom: 0;
