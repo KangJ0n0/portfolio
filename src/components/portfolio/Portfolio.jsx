@@ -6,14 +6,14 @@ const items = [
   {
     id: 1,
     title: "Weather Website",
-    img: "../../../public/weatherweb.png",
+    img: "/weatherweb.png",
     desc: "Whether you're planning a trip or just curious about the conditions, our platform offers real-time updates on the current weather and time across various locations.  ",
     link: "https://weather-app-one-pearl-47.vercel.app/",
   },
   {
     id: 2,
     title: "Indonesian History Movie Website",
-    img: "../../../public/prakpemwebh.png",
+    img: "/prakpemwebh.png",
     desc: "Team Project for Web Development Pratice, doing backend for this project and make the concept with my friend. Showcases the best of Indonesian history, allowing you to watch, learn, and immerse yourself in the narratives that shaped a nation.",
     link: "https://github.com/KangJ0n0/PrakpemwebHistori",
   },
