@@ -4,6 +4,7 @@ import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Portfolio from "./components/portfolio/Portfolio";
+import Services from "./components/services/Services";
 
 const App = () => {
   return (
@@ -15,12 +16,12 @@ const App = () => {
       <section2 id="Portfolio">
         <Portfolio />
       </section2>
+      <section id="About">
+        <Services />
+      </section>
       <section id="Contact">
         <Contact />
       </section>
-      {/* Framer Motion Crash Course */}
-      {/* <Test/>
-    <Test/> */}
     </div>
   );
 };

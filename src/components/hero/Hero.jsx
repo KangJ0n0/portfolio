@@ -42,14 +42,15 @@ const Hero = () => {
     <div className="hero">
       <div className="wrapper">
         <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
-          <motion.h2 variants={textVariants}>Software Engineer, TypeScript Enthusiast, based in Central Java</motion.h2>
+          <motion.h2 variants={textVariants}>Software Engineer, Programming Enthusiasts, based in Central Java</motion.h2>
           <motion.h3 variants={textVariants}>
-            I am Jehian Athaya, also known as sendomoka, a software engineer based in Central Java, Indonesia specializing in building (occasionally designing) exceptional websites, applications, and everything in between. Additionally, I
-            am a informatics student at Jenderal Soedirman University.
+            I am Afiftha Ravi Aufa Yubiharto. Undergraduate Student of Informatics Engineering at Jenderal Soedirman University, specializing in a website development. Have a deep interest in game development and embedded system. I am quick
+            to grasp new concepts and always eager to learn new things, lets collaborate and achive excellence together!
           </motion.h3>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>See the Latest Works</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants} onClick={() => window.open("https://github.com/KangJ0n0?tab=repositories", "_blank")}>
+              See the Latest Works
+            </motion.button>
           </motion.div>
           <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
         </motion.div>
@@ -58,7 +59,7 @@ const Hero = () => {
         Writer Content Creator Influencer
       </motion.div>
       <div className="imageContainer">
-        <img src="/afif.png" alt="" />
+        <img src="/Untitled.png" alt="" />
       </div>
     </div>
   );

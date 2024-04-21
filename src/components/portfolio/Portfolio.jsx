@@ -7,13 +7,13 @@ const items = [
     id: 1,
     title: "Weather Website",
     img: "../../../public/weatherweb.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Whether you're planning a trip or just curious about the conditions, our platform offers real-time updates on the current weather and time across various locations.  ",
   },
   {
     id: 2,
-    title: "Next.js Blog",
+    title: "Indonesian History Movie Website",
     img: "../../../public/prakpemwebh.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Team Project for Web Development Pratice, doing backend for this project and make the concept with my friend. Showcases the best of Indonesian history, allowing you to watch, learn, and immerse yourself in the narratives that shaped a nation.",
   },
 ];
 
