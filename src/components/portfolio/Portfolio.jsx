@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "Weather Website",
-    img: "/weatherweb.png",
+    img: "/Weatherweb.png",
     desc: "Whether you're planning a trip or just curious about the conditions, our platform offers real-time updates on the current weather and time across various locations.  ",
     link: "https://weather-app-one-pearl-47.vercel.app/",
   },
