@@ -60,9 +60,9 @@ const Hero = () => {
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
         Code Interface Firmware Integration
       </motion.div>
-      <div className="imageContainer">
+      <motion.div className="imageContainer" variants={textVariants} initial="initial" animate="animate">
         <img src="/afif.png" alt="" />
-      </div>
+      </motion.div>
     </div>
   );
 };
